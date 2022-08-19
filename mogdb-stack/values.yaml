@@ -1,8 +1,20 @@
-# Default values for mogdb-stack-v1.0.0.
+# Default values for mogdb-stack-helm.
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
 replicaCount: 1
+
+namespace: mogdb-operator-system
+
+apiserver:
+  image: swr.cn-north-4.myhuaweicloud.com/mogdb-cloud/mogdb-apiserver
+  tag: latest
+operator:
+  image: swr.cn-north-4.myhuaweicloud.com/mogdb-cloud/mogdb-operator:latest
+  tag: latest
+
+imagePullPolicy: IfNotPresent
+
 
 image:
   repository: nginx
