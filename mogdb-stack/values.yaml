@@ -10,7 +10,7 @@ apiserver:
   image: swr.cn-north-4.myhuaweicloud.com/mogdb-cloud/mogdb-apiserver
   tag: latest
 operator:
-  image: swr.cn-north-4.myhuaweicloud.com/mogdb-cloud/mogdb-operator:latest
+  image: swr.cn-north-4.myhuaweicloud.com/mogdb-cloud/mogdb-operator
   tag: latest
 
 imagePullPolicy: IfNotPresent
