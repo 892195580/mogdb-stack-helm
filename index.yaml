@@ -3,12 +3,12 @@ entries:
   mogdb-stack:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2022-08-22T10:57:28.637159874+08:00"
+    created: "2022-08-22T11:09:56.818836095+08:00"
     description: A Helm chart for Kubernetes
-    digest: 0db198321fa4c5a479aeb6593c824d9972f082fb8fe54c01e6f44892ee03b948
+    digest: 9f080025388dfe1e23dc748456ae81cce34c29077b0f5b3c1a33913f969052a1
     name: mogdb-stack
     type: application
     urls:
     - https://892195580.github.io/mogdb-stack-helm/mogdb-stack-1.0.0.tgz
     version: 1.0.0
-generated: "2022-08-22T10:57:28.634912064+08:00"
+generated: "2022-08-22T11:09:56.81640509+08:00"
